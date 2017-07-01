@@ -1,1 +1,0 @@
-cmd_/root/embedded/practice4/page.ko := armv7-rpi2-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /root/embedded/practice4/page.ko /root/embedded/practice4/page.o /root/embedded/practice4/page.mod.o

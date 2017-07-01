@@ -1,1 +1,0 @@
-cmd_/root/embedded/practice2/proc.ko := armv7-rpi2-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /root/embedded/practice2/proc.ko /root/embedded/practice2/proc.o /root/embedded/practice2/proc.mod.o

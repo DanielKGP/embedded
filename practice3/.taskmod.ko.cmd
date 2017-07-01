@@ -1,1 +1,0 @@
-cmd_/root/embedded/practice3/taskmod.ko := armv7-rpi2-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /root/embedded/practice3/taskmod.ko /root/embedded/practice3/taskmod.o /root/embedded/practice3/taskmod.mod.o
