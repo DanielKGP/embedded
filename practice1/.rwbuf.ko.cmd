@@ -1,0 +1,1 @@
+cmd_/root/embedded/practice1/rwbuf.ko := armv7-rpi2-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /root/embedded/practice1/rwbuf.ko /root/embedded/practice1/rwbuf.o /root/embedded/practice1/rwbuf.mod.o
